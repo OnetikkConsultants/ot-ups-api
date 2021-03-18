@@ -8,6 +8,8 @@
     "shipping"      
   ],
   "version": "1.0.0",
+  "minimum-stability": "dev",
+  "prefer-stable": true,
   "license": "MIT",
   "authors": [
     {
@@ -42,7 +44,5 @@
         "tests/Ups/Tests/_includes"
       ]
     }
-  },
-  "minimum-stability": "dev",
-  "prefer-stable": true
+  }  
 }
