@@ -7,7 +7,7 @@
     "api",
     "shipping"      
   ],
-  "version": "1.2.0",
+  "version": "1.0.0",
   "license": "MIT",
   "authors": [
     {
@@ -28,10 +28,7 @@
   "suggest": {
     "ext-soap": "Required if you need the Tradeability API of UPS"
   },
-  "extra": {    
-    "branch-alias": {
-      "dev-master": "1.2-dev"
-    }
+  "extra": {  
   },
   "autoload": {
     "psr-4": {
