@@ -30,7 +30,12 @@
   },
   "extra": {
     "branch-alias": {
-      "dev-master": "1.2-dev"
+      "dev-master": "master"
+    },
+    "laravel": {
+      "providers": [
+        "Ups\\UpsApiServiceProvider"
+      ]
     }
   },
   "autoload": {
