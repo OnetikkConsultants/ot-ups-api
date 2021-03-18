@@ -185,6 +185,7 @@ class Service implements NodeInterface
     public function setCode($code)
     {
         $this->code = $code;
+        $this->Code = $code;
 
         return $this;
     }

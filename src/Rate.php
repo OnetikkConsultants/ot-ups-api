@@ -49,7 +49,7 @@ class Rate extends Ups
             $shipment = $rateRequest;
             $rateRequest = new RateRequest();
             $rateRequest->setShipment($shipment);
-            
+            //ToDo: Get parameter from user
             $rateRequest->setPickupType(PickupType::PKT_CUSTOMERCOUNTER);
         }
 
