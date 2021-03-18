@@ -43,6 +43,6 @@
       ]
     }
   },
-  "minimum-stability": "dev-master",
-  "prefer-stable": true
+  "minimum-stability": "dev",
+  "prefer-stable": false
 }
