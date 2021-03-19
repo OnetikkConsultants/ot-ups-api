@@ -31,13 +31,13 @@
   },
   "autoload": {
     "psr-4": {
-      "Onetikk\\ot-ups-api\\": "src"
+      "Ups\\": "src"
     }
   },
   "extra": {  
     "laravel": {
       "providers": [
-        "Onetikk\\ot-ups-api\\UpsApiServiceProvider"
+        "Ups\\UpsApiServiceProvider"
       ]
     }
   }  
