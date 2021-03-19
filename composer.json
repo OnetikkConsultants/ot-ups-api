@@ -29,16 +29,16 @@
   "suggest": {
     "ext-soap": "Required if you need the Tradeability API of UPS"
   },
+  "autoload": {
+    "psr-4": {
+      "Onetikk\\ot-ups-api\\": "src"
+    }
+  },
   "extra": {  
     "laravel": {
       "providers": [
-        "Ups\\UpsApiServiceProvider"
+        "Onetikk\\ot-ups-api\\UpsApiServiceProvider"
       ]
     }
-  },
-  "autoload": {
-    "psr-4": {
-      "Ups\\": "src"
-    }
-  }
+  }  
 }
