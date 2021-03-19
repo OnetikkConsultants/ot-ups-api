@@ -33,12 +33,5 @@
     "psr-4": {
       "Ups\\": "src"
     }
-  },
-  "extra": {  
-    "laravel": {
-      "providers": [
-        "Ups\\UpsApiServiceProvider"
-      ]
-    }
-  }  
+  }   
 }
