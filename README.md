@@ -1,7 +1,7 @@
 # ot-ups-api
 UPS PHP Api
 
-This is copied and modified from gabrielbull's UPS API. We made some custom changes as per our need . If you want gabrielbull 's PHP API please visit <a href="https://github.com/gabrielbull/php-ups-api">gabrielbull/php-ups-api</a>
+This is modified version gabrielbull's PHP UPS API, also included laravel wrapper as well. We made some custom changes as per our need. If you want gabrielbull 's PHP API please visit <a href="https://github.com/gabrielbull/php-ups-api">gabrielbull/php-ups-api</a>
 
 
 This library wrap all the UPS API into a simple to use PHP Library. It currently covers the Quantum View®,
