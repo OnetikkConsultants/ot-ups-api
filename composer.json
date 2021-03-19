@@ -30,18 +30,15 @@
     "ext-soap": "Required if you need the Tradeability API of UPS"
   },
   "extra": {  
+    "laravel": {
+      "providers": [
+        "Ups\\UpsApiServiceProvider"
+      ]
+    }
   },
   "autoload": {
     "psr-4": {
       "Ups\\": "src"
     }
-  },
-  "autoload-dev": {
-    "psr-4": {
-      "Ups\\Tests\\": [
-        "tests/Ups/Tests",
-        "tests/Ups/Tests/_includes"
-      ]
-    }
-  }  
+  }
 }
